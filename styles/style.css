@@ -1,10 +1,10 @@
 @font-face {
     font-family: "Roboto";
     src: url("../fonts/Roboto-Regular.woff2") format("woff2"),
-      url("../fonts/Roboto-Regular.woff") format("woff");
+        url("../fonts/Roboto-Regular.woff") format("woff");
     font-style: normal;
     font-weight: 400;
-  }
+}
 
 @font-face {
     font-family: "Roboto";
@@ -34,7 +34,8 @@
     box-sizing: border-box;
 }
 
-html, body {
+html,
+body {
     height: 100%;
 }
 
@@ -48,11 +49,20 @@ body {
     min-width: 320px;
 }
 
-h1, h2, h3, h4, h5, h6, p, ul, ol {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol {
     margin: 0;
 }
 
-ul, ol {
+ul,
+ol {
     list-style: none;
     padding: 0;
 }
@@ -149,6 +159,10 @@ a {
 
 .hero__header-btn-line:nth-child(3) {
     top: 18px;
+}
+
+.hero__header-btn-menu--open {
+    position: fixed;
 }
 
 .hero__header-btn-menu--open .hero__header-btn-line:nth-child(1) {
@@ -578,7 +592,8 @@ a {
 
 .footer {
     padding: 70px 0;
-    background-color: rgba(38, 148, 153, 0.04);;
+    background-color: rgba(38, 148, 153, 0.04);
+    ;
 }
 
 .footer__wrap {
@@ -649,12 +664,12 @@ a {
 }
 
 .footer__row-subscribe-item {
-   margin-bottom: 20px;
+    margin-bottom: 20px;
 }
 
 .footer__row-subscribe-item:last-child {
     margin-bottom: 10px;
- }
+}
 
 .footer__input {
     font-family: 'Roboto', Arial, Helvetica, sans-serif;
@@ -693,7 +708,6 @@ a {
 
     .hero__logo {
         position: relative;
-        z-index: 3;
         margin-right: auto;
     }
 
